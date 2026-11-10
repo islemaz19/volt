@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"fda983ecc00e47d5","type":"text","text":"# 📊 Dashboard Sport \n- Tableau des séances terminées \n- Tableau des séances prévues / To-Do \n- Suivi du poids du corps ","x":-280,"y":-880,"width":533,"height":240},
+		{"id":"a03f970faabea442","type":"text","text":"# 🏋️‍♂️ Note : Séance d'entraînement\n**Métadonnées YAML (Properties) :**\n- `date` (Date de la séance)\n- `type_seance` (Push / Pull / Legs / Cardio/full body)\n- `duree_min` (Durée en minutes)\n- `termine` (Case à cocher : true / false)","x":160,"y":-480,"width":613,"height":240},
+		{"id":"daa175fcfda2b508","type":"text","text":"# ⚙️ Plugins & Outils utilisés\n- **Templater :** Création automatique des notes de séance avec la date du jour\n- **Dataview :** Génération dynamique des tableaux de suivi et statistiques\n- **Canvas :** Conception et architecture du projet","x":-820,"y":-480,"width":660,"height":240}
+	],
+	"edges":[
+		{"id":"0c37c5b0a525f5d2","fromNode":"a03f970faabea442","fromSide":"left","toNode":"fda983ecc00e47d5","toSide":"right"},
+		{"id":"8573ce4bd36a1471","fromNode":"daa175fcfda2b508","fromSide":"right","toNode":"fda983ecc00e47d5","toSide":"left"}
+	]
+}
